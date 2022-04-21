@@ -5,6 +5,7 @@
 
 - [@Vishwjeet14](https://github.com/vishwjeet14)
 
+# Introduction
 
 In this project I am doing sales analysis of atalic hardwares.For Data analysis i use Power BI and SQL as a tool. Data is collected from the local Database Mysql.  In sales Database there are five tables present.
 
