@@ -1,10 +1,5 @@
 ## Sales Insights Data Analysis Project
 
-### Instructions to setup mysql on your local computer
-
-1. Follow step in this video to install mysql on your local computer
-https://www.youtube.com/watch?v=WuBcTJnIuzo
-
 1. SQL database dump is located [here](). Download `db_dump.sql` file to your local computer and import it as per instructions given in the tutorial video
 
 ### Data Analysis Using SQL
@@ -43,12 +38,7 @@ https://www.youtube.com/watch?v=WuBcTJnIuzo
 and sales.transactions.market_code="Mark001";`
 
 
-Data Analysis Using Power BI
-============================
 
-1. Formula to create norm_amount column
-
-`= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
 
 
 
